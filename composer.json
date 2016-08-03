@@ -1,6 +1,13 @@
 {
   "name": "bvanleeuwen/yii2-grid-check-column",
   "description": "Advanced check columns for Yii2",
+  "keywords": [
+    "yii2",
+    "gridview",
+    "check",
+    "column"
+  ],
+  "homepage": "https://github.com/bvanleeuwen/yii2-grid-check-column",
   "type": "yii2-extension",
   "autoload": {
     "psr-4": {
