@@ -1,0 +1,10 @@
+{
+  "name": "bvanleeuwen/yii2-grid-check-column",
+  "description": "Advanced check columns for Yii2",
+  "type": "yii2-extension",
+  "autoload": {
+    "psr-4": {
+      "bvanleeuwen\\checkColumn": ""
+    }
+  }
+}
