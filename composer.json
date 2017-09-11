@@ -11,7 +11,7 @@
   "type": "yii2-extension",
   "autoload": {
     "psr-4": {
-      "bvanleeuwen\\checkColumn\\": ""
+      "bvanleeuwen1995\\checkColumn\\": ""
     }
   }
 }

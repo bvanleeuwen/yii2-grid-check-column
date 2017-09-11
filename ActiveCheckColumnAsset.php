@@ -6,13 +6,13 @@
  * Time: 20:12
  */
 
-namespace bvanleeuwen\checkColumn;
+namespace bvanleeuwen1995\checkColumn;
 
 use yii\web\AssetBundle;
 
 class ActiveCheckColumnAsset extends AssetBundle
 {
-    public $sourcePath = '@vendor/bvanleeuwen/yii2-grid-check-column/assets';
+    public $sourcePath = '@vendor/bvanleeuwen1995/yii2-grid-check-column/assets';
 
     public $js = [
         'script.action.check.column.js'

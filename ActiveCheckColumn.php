@@ -1,6 +1,6 @@
 <?php
 
-namespace bvanleeuwen\checkColumn;
+namespace bvanleeuwen1995\checkColumn;
 
 use Yii;
 use yii\base\ErrorException;
