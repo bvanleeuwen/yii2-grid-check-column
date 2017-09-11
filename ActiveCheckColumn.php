@@ -26,6 +26,15 @@ class ActiveCheckColumn extends DataColumn
 
     public function init()
     {
+	    if (!isset(Yii::$app->i18n->translations['ActiveCheckColumn'])) {
+		    Yii::$app->i18n->translations['ActiveCheckColumn'] = [
+			    'class' => 'yii\i18n\PhpMessageSource',
+			    'sourceLanguage' => 'en',
+			    'basePath' => '@vendor/bvanleeuwen/yii2-grid-check-column/messages'
+		    ];
+	    }
+    	
+    	
         // Get the view
         $view = $this->grid->getView();
 
@@ -34,12 +43,12 @@ class ActiveCheckColumn extends DataColumn
 
         // Set the filter options
         $this->filter = [
-            false => 'No value',
-            true => 'Has value'
+            false => Yii::t('ActiveCheckColumn', 'No value'),
+            true => Yii::t('ActiveCheckColumn', 'Has value')
         ];
 
         $this->filterInputOptions = [
-            'prompt' => 'Choose status',
+            'prompt' => Yii::t('ActiveCheckColumn', 'Choose status'),
             'class' => 'form-control',
             'id' => null
         ];
